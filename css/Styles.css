@@ -1,0 +1,46 @@
+/* SELECTOR UNIVERSAL */
+*{
+    list-style: none;
+    margin: 1;
+    border: 1;
+    padding: 1;
+}
+
+/* SELECTORES (ETIQUETA) */
+body{
+    background-color: darkgrey;
+}
+h1{
+    color: rebeccapurple;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2{
+    color:navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#verde{
+    color: green;
+}
+#azul{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* SELECTORES POR CLASS */
+.rojo{
+    color:darkred;
+}
+/* SELECTORES DESCENDIENTES */
+div p{
+    color:darkslategrey;
+}
+p>strong{
+    color:darkviolet
+}
+p>i{
+    color: brown;
+}
