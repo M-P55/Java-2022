@@ -7,6 +7,11 @@ h1{
     font-family: Georgia;
     color:darkred
 }
+
+h1:hover{
+    color:black;
+}
+
 h2{
     color: violet;
     font-family: 'Franklin Gothic Medium';
@@ -33,4 +38,14 @@ h2{
 #rojo{
     color:red;
     font-family: 'Segoe UI';
+}
+#rosa{
+    color: pink;
+}
+/* REVISAR LA ETIQUETA CLASS */
+p:first-child{
+
+}
+p:last-child{
+
 }
