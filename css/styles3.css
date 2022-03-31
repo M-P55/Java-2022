@@ -1,0 +1,14 @@
+h1 {
+    color:red;
+}
+div{
+    padding: 10px 15px 5px 20px;
+    border: 15px solid; color: blue;
+    margin: 20px;
+    background-color: lightslategrey;
+    outline: 10px solid aqua;
+
+}
+/* EL ORDEN DEL PADDING EN LA HILERA SE 
+MUEVE COMO LAS AGUJAS DE RELOJ. 
+O SEA QUE 20PX AFECTA AL LADO IZQUIERDO EN LA PAG WEB. */
