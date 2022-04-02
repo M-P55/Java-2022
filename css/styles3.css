@@ -3,11 +3,26 @@ h1 {
 }
 div{
     padding: 10px 15px 5px 20px;
-    border: 15px solid; color: blue;
+    border: 15px solid black;
     margin: 20px;
     background-color: lightslategrey;
     outline: 10px solid aqua;
+    transition: width 5s;
+    animation-name: example;
+    animation-duration: 40s;
+}
 
+@keyframes example {
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
+
+div:hover{
+    width: 100px
 }
 /* EL ORDEN DEL PADDING EN LA HILERA SE 
 MUEVE COMO LAS AGUJAS DE RELOJ. 

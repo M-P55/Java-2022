@@ -1,0 +1,55 @@
+body{
+    background-color: lightgray;
+    font-family: Georgia;
+    outline: 1px solid;
+}
+
+h1{
+    color:mediumslateblue;
+    padding: 10px;
+    border: 10px;
+    height: 10px;
+}
+
+h2{
+    color: mediumorchid;
+    padding: 10px;
+    border: 10px;
+}
+
+h3{
+    color: black;
+    animation-name: fade;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes fade{
+    from{color: black;}
+    to{color: mediumorchid;}
+
+div{
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+
+}
+
+table{
+    padding: 2px;
+    border: 2px;
+    margin: 10px;
+}
+
+footer{
+    animation-name: footer;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes footer{
+    from{color: black;}
+    to{color: mediumslateblue;}
+}
