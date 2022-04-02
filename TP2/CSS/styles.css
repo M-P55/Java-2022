@@ -36,12 +36,19 @@ div{
 
 
 }
-
 table{
     padding: 2px;
     border: 2px;
     margin: 10px;
 }
+
+ul{
+    list-style: circle;
+    font-size: 1.2em;
+ }
+ li::marker {
+    color:mediumorchid;
+ }
 
 footer{
     animation-name: footer;
